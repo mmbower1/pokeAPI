@@ -10,6 +10,7 @@
 
 # production
 /config
+/client/node_modules
 /client/build
 
 # misc

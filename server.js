@@ -29,7 +29,7 @@ if (process.env.NODE_ENV === 'production') {
     res.sendFile(path.join(__dirname, 'client/build', 'index.html'));
   });
 }
-const whitelist = ['http://localhost:3000', 'http://localhost:8080', 'https://shrouded-journey-38552.heroku...']
+const whitelist = ['http://localhost:3000', 'http://localhost:5000', 'https://poke-mern.herokuapp.com/']
 const corsOptions = {
   origin: (origin, callback) => {
     console.log("** Origin of request " + origin)
