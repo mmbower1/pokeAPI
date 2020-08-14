@@ -3,6 +3,8 @@ import { combineReducers } from 'redux';
 // import { persistReducer } from 'redux-persist';
 // import storage from 'redux-persist/lib/storage';
 // reducers
+import alert from './alert';
+import auth from './auth';
 // import subscribe from './subscription';
 // import profile from './profile';
 
@@ -13,6 +15,8 @@ import { combineReducers } from 'redux';
 // }
 
 const rootReducer = combineReducers({
+  alert,
+  auth
   // subscribe
   // profile
 });

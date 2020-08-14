@@ -1,0 +1,58 @@
+@import '../../scss/App.scss';
+
+.pokeball-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.pokeball {
+  animation: load 2s infinite;
+  animation: spin infinite 2s linear;
+  background-image: linear-gradient(#f51939 125px, white 125px);
+  border: 13px solid #383b4f;
+  border-radius: 50%;
+  height: 250px;
+  position: relative;
+  width: 250px;
+
+  &:before {
+    background-color: #383b4f;
+    content: '';
+    height: 17px;
+    right: 0rem;
+    position: absolute;
+    top: 110px;
+    width: 235px;
+  }
+
+  &:after {
+    background-image: radial-gradient(
+      #ffffff 0px, #ffffff 10px, 
+      #383b4f 15px, #383b4f 10px, 
+      #ffffff 15px, #ffffff 32px, 
+      #383b4f 32px
+    );
+    border-radius: 50%;
+    content: '';
+    height: 90px;
+    left: 65px;
+    position: absolute;
+    top: 72px;
+    width: 90px;
+  }
+}
+
+@keyframes load {
+  50% {
+    transform: scale(0.7);
+  }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

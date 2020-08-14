@@ -1,0 +1,46 @@
+@import '../../scss/App.scss';
+
+.login {
+  &-container {
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 19rem;
+    width: 50%;
+  }
+
+  &-logo {
+		animation-duration: 1s;
+		animation-name: moveInLeft;
+		animation-timing-function: ease-out;
+  }
+
+  &-form {
+    border-radius: 3px;
+    // border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.7);
+    padding: 20px 20px;
+  }
+
+  &-input {
+    animation: moveInRight 1s ease-out;
+    border-radius: 5px;
+    font-size: 25px;
+    margin: 20px;
+    padding: 1rem 1rem;
+  }
+
+  &-button {
+    // animation: moveInRight 1s ease-out;
+    background-color: #6de0ed;
+    border-radius: 3px;
+    border: none;
+    font-size: 2.5rem;
+    margin: 15px 0;
+    padding: 10px 20px;
+  }
+}
+
+.register {
+  color: red;
+  text-decoration: none;
+}
