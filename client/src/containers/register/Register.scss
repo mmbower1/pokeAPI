@@ -4,15 +4,14 @@
   &-container {
     color: #fff;
     margin: 0 auto;
-    margin-top: 19rem;
+    margin-top: 5rem;
     width: 50%;
   }
 
-  // &-logo {
-	// 	animation-duration: 1s;
-	// 	animation-name: moveInLeft;
-	// 	animation-timing-function: ease-out;
-  // }
+  &-logo {
+    width: 200px;
+  }
+
   &-form {
     border-radius: 3px;
     // border: 1px solid black;
@@ -22,9 +21,9 @@
 
   &-input {
     border-radius: 5px;
-    font-size: 25px;
+    font-size: 13px;
     margin: 20px 0;
-    padding: 1rem 1rem;
+    padding: 1.2rem 1rem;
   }
 
   &-button {

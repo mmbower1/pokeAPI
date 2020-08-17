@@ -11,7 +11,8 @@
   &-logo {
 		animation-duration: 1s;
 		animation-name: moveInLeft;
-		animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    width: 200px;
   }
 
   &-form {
@@ -24,9 +25,9 @@
   &-input {
     animation: moveInRight 1s ease-out;
     border-radius: 5px;
-    font-size: 25px;
+    font-size: 13px;
     margin: 20px;
-    padding: 1rem 1rem;
+    padding: 1.2rem 1rem;
   }
 
   &-button {

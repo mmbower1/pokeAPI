@@ -64,7 +64,7 @@ const Login = ({ setAlert, login, isAuthenticated, user }) => {
             required
           />
         </FormGroup>
-        <Button className="login-button" type="submit" value="Login">Submit</Button>
+        <Button className="login-button" type="submit" value="Login">SUBMIT</Button>
       </Form>
         No account? <br /><Link to="/register" className="register">REGISTER</Link>
     </div>

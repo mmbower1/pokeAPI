@@ -4,6 +4,8 @@ import { Link, Redirect } from 'react-router-dom';
 import PropTypes from 'prop-types';
 // actions
 import { logout } from '../../actions/auth';
+// components
+import Pokedex from '../pokedex/Pokedex';
 // styles
 import './Navbar.scss';
 import { Nav } from 'react-bootstrap';
@@ -32,6 +34,9 @@ const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
 
   const guestLinks = (
     <div>
+      <div className="pokedex-component">
+        <Pokedex />
+      </div>
       <div>
         Welcome
       </div>
