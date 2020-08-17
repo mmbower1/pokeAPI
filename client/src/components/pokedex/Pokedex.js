@@ -18,12 +18,7 @@ const Pokedex = () => {
           </li>
           <li className="navigation__item">
             <a href="" className="navigation__link">
-              Benefits
-            </a>
-          </li>
-          <li className="navigation__item">
-            <a href="" className="navigation__link">
-              Popular hikes
+              Pokemon
             </a>
           </li>
           <li className="navigation__item">
