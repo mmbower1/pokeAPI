@@ -37,7 +37,13 @@
     border: none;
     font-size: 2.5rem;
     margin: 15px 0;
-    padding: 10px 20px;
+    padding: 6px 20px;
+  }
+
+  .form-control {
+    @include respond(tab-land) { // width < 1200px
+      width: 100%;
+    }
   }
 }
 

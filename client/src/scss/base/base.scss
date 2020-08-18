@@ -46,7 +46,10 @@ body {
     // }
   // }
 
-  @include respond(tab-port) { 
+  @include respond(tab-port) {
+    background-position: center center; 
+    background-attachment: fixed; 
+    background-repeat: no-repeat; background-size: cover; 
     padding: 0;
   }
 }
